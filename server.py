@@ -1,7 +1,7 @@
 #!flask/bin/python
 # coding=utf-8
 from flask import Flask, request, redirect, url_for, render_template
-from pytechlag.pytechlag import TechLag
+from techlag.techlag import TechLag
 
 app = Flask(__name__)
 
